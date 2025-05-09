@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		31FEAA122DCE8AF0002D9147 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FEAA0C2DCE8AF0002D9147 /* Preview Assets.xcassets */; };
+		31FEAA132DCE8AF0002D9147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FEAA0F2DCE8AF0002D9147 /* Assets.xcassets */; };
+		31FEAA142DCE8AF0002D9147 /* AccountingSalesTaxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FEAA0E2DCE8AF0002D9147 /* AccountingSalesTaxApp.swift */; };
+		31FEAA152DCE8AF0002D9147 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FEAA102DCE8AF0002D9147 /* ContentView.swift */; };
+		31FEAA182DCE8B2D002D9147 /* HSTCalculationChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FEAA172DCE8B1C002D9147 /* HSTCalculationChallenge.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		31FEA9FB2DCE8AE5002D9147 /* AccountingSalesTax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountingSalesTax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FEAA0C2DCE8AF0002D9147 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31FEAA0E2DCE8AF0002D9147 /* AccountingSalesTaxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountingSalesTaxApp.swift; sourceTree = "<group>"; };
+		31FEAA0F2DCE8AF0002D9147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31FEAA102DCE8AF0002D9147 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		31FEAA172DCE8B1C002D9147 /* HSTCalculationChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSTCalculationChallenge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		31FEA9FD2DCE8AE5002D9147 /* AccountingSalesTax */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AccountingSalesTax;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		31FEA9F82DCE8AE5002D9147 /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		31FEA9F22DCE8AE5002D9147 = {
 			isa = PBXGroup;
 			children = (
-				31FEA9FD2DCE8AE5002D9147 /* AccountingSalesTax */,
+				31FEAA112DCE8AF0002D9147 /* AccountingSalesTax */,
 				31FEA9FC2DCE8AE5002D9147 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,34 @@
 				31FEA9FB2DCE8AE5002D9147 /* AccountingSalesTax.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		31FEAA0D2DCE8AF0002D9147 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				31FEAA0C2DCE8AF0002D9147 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31FEAA112DCE8AF0002D9147 /* AccountingSalesTax */ = {
+			isa = PBXGroup;
+			children = (
+				31FEAA162DCE8B13002D9147 /* ViewModel */,
+				31FEAA0E2DCE8AF0002D9147 /* AccountingSalesTaxApp.swift */,
+				31FEAA0D2DCE8AF0002D9147 /* Preview Content */,
+				31FEAA0F2DCE8AF0002D9147 /* Assets.xcassets */,
+				31FEAA102DCE8AF0002D9147 /* ContentView.swift */,
+			);
+			path = AccountingSalesTax;
+			sourceTree = "<group>";
+		};
+		31FEAA162DCE8B13002D9147 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				31FEAA172DCE8B1C002D9147 /* HSTCalculationChallenge.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +92,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				31FEA9FD2DCE8AE5002D9147 /* AccountingSalesTax */,
 			);
 			name = AccountingSalesTax;
 			packageProductDependencies = (
@@ -109,6 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31FEAA122DCE8AF0002D9147 /* Preview Assets.xcassets in Resources */,
+				31FEAA132DCE8AF0002D9147 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31FEAA142DCE8AF0002D9147 /* AccountingSalesTaxApp.swift in Sources */,
+				31FEAA152DCE8AF0002D9147 /* ContentView.swift in Sources */,
+				31FEAA182DCE8B2D002D9147 /* HSTCalculationChallenge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
