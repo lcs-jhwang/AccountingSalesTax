@@ -12,6 +12,7 @@
 		31FEAA142DCE8AF0002D9147 /* AccountingSalesTaxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FEAA0E2DCE8AF0002D9147 /* AccountingSalesTaxApp.swift */; };
 		31FEAA152DCE8AF0002D9147 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FEAA102DCE8AF0002D9147 /* ContentView.swift */; };
 		31FEAA182DCE8B2D002D9147 /* HSTCalculationChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FEAA172DCE8B1C002D9147 /* HSTCalculationChallenge.swift */; };
+		31FEAA1A2DCE8DCD002D9147 /* HSTMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FEAA192DCE8DB2002D9147 /* HSTMatchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		31FEAA0F2DCE8AF0002D9147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31FEAA102DCE8AF0002D9147 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		31FEAA172DCE8B1C002D9147 /* HSTCalculationChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSTCalculationChallenge.swift; sourceTree = "<group>"; };
+		31FEAA192DCE8DB2002D9147 /* HSTMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSTMatchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				31FEAA172DCE8B1C002D9147 /* HSTCalculationChallenge.swift */,
+				31FEAA192DCE8DB2002D9147 /* HSTMatchView.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				31FEAA142DCE8AF0002D9147 /* AccountingSalesTaxApp.swift in Sources */,
 				31FEAA152DCE8AF0002D9147 /* ContentView.swift in Sources */,
+				31FEAA1A2DCE8DCD002D9147 /* HSTMatchView.swift in Sources */,
 				31FEAA182DCE8B2D002D9147 /* HSTCalculationChallenge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
